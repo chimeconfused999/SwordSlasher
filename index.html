@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <!--Sword game, control sword wasd, it rotates to face you. Kill enemies that spawn and they spawn faster and with more health as time goes on, Shop to buy upgrades!-->
+  <div id="background">
+    <audio autoplay loop>
+      <source src="Noise-Long-Version-chosic.com_.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <div id="coins">
+    <div id = "xbutton"><img src = "x.png" width = 75 height = 75 ></div>
+    <p id="coindisplay"></p </div>
+  
+    <div id="health">
+      <p id="healthdisplay">Health:
+      <p id="healthint">100</p>
+      </p>
+    </div>
+  <div id = "mobKills">
+    <p id = "mobkilldisplay">Mob Kills: <p id="mobkillint">0</p></p>
+  </div>
+  
+    <div id="player">
+      <div id="playercontainer"><img id="playerimg" src="playersword.png" width="100%" height="100%"></div>
+      <div id="tip"></div>
+      
+      <div id="shitbox"></div>
+    </div>
+    <div><iframe src="shop.html" id="shop"></iframe>
+    </div>
+    <div id = "gameover">
+      <img id = "gameoverimg"src="gameover.png">
+    </div>
+   
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

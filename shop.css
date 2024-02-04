@@ -1,0 +1,157 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+
+}
+#priceone{
+  top:21%;
+  width:30%;
+  position:fixed;
+  padding-top:5px;
+  padding-bottom:5px;
+  border:3px solid black;
+  border-radius:3px;
+  background-color:#7e9fe2;
+}
+#pricetwo{
+  top:21%;
+  width:30%;
+  left:34%;
+  padding-top:5px;
+  padding-bottom:5px;
+  border:3px solid black;
+  border-radius:3px;
+  background-color:#7e9fe2;
+  position:fixed;
+}
+#pricethree{
+  top:21%;
+  width:30%;
+  left:67%;
+  padding-top:5px;
+  padding-bottom:5px;
+  border:3px solid black;
+  border-radius:3px;
+  background-color:#7e9fe2;
+  position:fixed;
+}
+#desone{
+  top:71%;
+  width:30%;
+
+  padding-top:5px;
+  padding-bottom:5px;
+  border:3px solid black;
+  border-radius:3px;
+  background-color:#a0b7e3;
+  position:fixed;
+}
+#destwo{
+  top:71%;
+  width:30%;
+
+  padding-top:5px;
+  padding-bottom:5px;
+  border:3px solid black;
+  border-radius:3px;
+  background-color:#a0b7e3;
+  position:fixed;
+  left:34%;
+}
+#desthree{
+  top:71%;
+  width:30%;
+
+  padding-top:5px;
+  padding-bottom:5px;
+  border:3px solid black;
+  border-radius:3px;
+  background-color:#a0b7e3;
+  position:fixed;
+  left:67%;
+}
+#infoone{
+  top:61%;
+  width:30%;
+
+  padding-top:5px;
+  padding-bottom:5px;
+  border:3px solid black;
+  border-radius:3px;
+  background-color:#8d97aa;
+  position:fixed;
+}
+#infotwo{
+  top:61%;
+  width:30%;
+
+  padding-top:5px;
+  padding-bottom:5px;
+  border:3px solid black;
+  border-radius:3px;
+  background-color:#8d97aa;
+  position:fixed;
+  left:34%;
+}
+#infothree{
+  top:61%;
+  width:30%;
+
+  padding-top:5px;
+  padding-bottom:5px;
+  border:3px solid black;
+  border-radius:3px;
+  background-color:#8d97aa;
+  position:fixed;
+  left:67%;
+}
+
+#heal{
+  top:30%;
+  width:30%;
+  transition-duration: 0.3s;
+  height:30%;
+}
+#speed{
+  left:34%;
+  top:30%;
+  width:30%;
+  transition-duration: 0.3s;
+  height:30%;
+}
+#turret{
+  left:67%;
+  top:30%;
+  width:30%;
+  transition-duration: 0.3s;
+  height:30%;
+}
+.buttonst{
+
+  position:fixed;
+  border-radius: 6px;
+  border: 6px solid #231f1f;
+  padding-top:15px;
+  padding-bottom:15px;
+
+}
+.buttonst:hover{
+  transform:translateY(-15px);
+  border: 9px solid #517af5;
+}
+.buttonst:active{
+  transform:scale(0.95);
+}
+
+.closeanim{
+  animation:closeanim 1s infinite linear;
+
+}
+@keyframes closeanim{
+  0%{width:50%;height:435px;}
+  10%{width:55%;height:455px;}
+  100%{width:0%;height:0px;}
+}
